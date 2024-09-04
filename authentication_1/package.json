@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://Nail45.github.io/YLAB_Course_homework",
   "scripts": {
+    "deploy": "vite build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
